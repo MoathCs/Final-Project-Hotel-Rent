@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    android:background="@drawable/backgroundinfo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/chooselogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@color/white"
+        android:text="Select the city you want"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/editCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select City"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginTop="32dp"
+        android:drawablePadding="8dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="18sp"
+        android:onClick="ptnSearch"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
