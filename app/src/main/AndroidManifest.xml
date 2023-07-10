@@ -13,6 +13,12 @@
         android:theme="@style/Theme.FinalProjectHotelSystem"
         tools:targetApi="31">
         <activity
+            android:name=".Img_hotels_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Choose_2_activity"
+            android:exported="false" />
+        <activity
             android:name=".Choose_activity"
             android:exported="false" />
         <activity

@@ -18,13 +18,13 @@
         android:layout_width="match_parent"
         android:layout_height="87dp"
         android:background="@color/white"
-        android:text="Select the Country you want"
+        android:text="Select the City you want"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"/>
 
     <ListView
-        android:id="@+id/country_list"
+        android:id="@+id/city_list"
         android:layout_width="match_parent"
         android:layout_margin="15dp"
         android:layout_height="150dp" />

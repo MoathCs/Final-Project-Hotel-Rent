@@ -6,23 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
 
-public class Choose_activity extends AppCompatActivity {
-
-
+public class Choose_2_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose);
+        setContentView(R.layout.activity_choose2);
 
-//        ArrayAdapter<Drink> listArrayAdapter = new ArrayAdapter<Drink>(this, android.R.layout.simple_list_item_1,Hotel.hotels);
+        //        ArrayAdapter<Drink> listArrayAdapter = new ArrayAdapter<Drink>(this, android.R.layout.simple_list_item_1,Hotel.hotels);
 
 
-        ListView country_list = (ListView) findViewById(R.id.country_list);
+        ListView city_list = (ListView) findViewById(R.id.city_list);
 //        hotel_list.setAdapter(listArrayAdapter);
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
             @Override
@@ -34,9 +30,7 @@ public class Choose_activity extends AppCompatActivity {
 
             }
         };
-        country_list.setOnItemClickListener(itemClickListener);
+        city_list.setOnItemClickListener(itemClickListener);
 
     }
-
-
 }
